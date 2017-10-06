@@ -1,0 +1,20 @@
+{
+  "name": "lnprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nodeunit ./tests/gradeBookTest.js",
+    "start": "node ./lib/index.js"
+  },
+  "keywords": [
+    "ale",
+    "dubu",
+    "learning"
+  ],
+  "author": "aled",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.1"
+  }
+}
