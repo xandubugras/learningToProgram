@@ -40,15 +40,15 @@ var gradeBook = {
         }
    },
 
-   getCountOfGrades: function getCountOfGrades(){
+   getCountOfGrades: function(){
        return this._grades.length;
    }, 
 
-   clearGrades: function clearGrades(){
+   clearGrades: function(){
         this._grades = [];
    },
 
-   avgGrade: function avgGrade(){
+   avgGrade: function(){
        let avg;
        let total = 0;
        for(let i=0;i<this._grades.length;i++){
@@ -58,9 +58,9 @@ var gradeBook = {
        return avg;
     },
 
-    letterGrade: function letterGrade(){
+    letterGrade: function(){
         let letter;
-        const avgGrade = this.avgGrade;
+        const avgGrade = this.avgGrade();
         if( avgGrade>=90 && avgGrade<=100){
             letter = "A"
             ;}

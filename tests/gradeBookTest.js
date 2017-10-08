@@ -25,7 +25,7 @@ module.exports["can give As"] = function(test){
     book.addGrade(90);
     book.addGrade(70);
     let avg = book.avgGrade();
-    test.equal(book.letterGrade(avg), a);
+    test.equal(book.letterGrade(), a);
     test.done();
 }
 
